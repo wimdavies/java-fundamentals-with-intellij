@@ -57,11 +57,14 @@ Gradle project, then:
 
 1. Enter `2` to build an `application`
 2. Enter `3` since you're using Java
-3. Enter `1: no - only one application project`
-4. Enter `1: Groovy`
+3. Enter `no` for only one application project
+4. Enter `2: Groovy`
 5. Enter `no` to not use the potentially unstable new features
 6. Enter `1: JUnit 4` to set up your project with JUnit 4 installed
-7. Accept the default options that follow by pressing `return`
+7. Accept the default options that follow for the Project Name and Source
+   Package by pressing `return`
+8. Enter `17` if that's your version of Java (as we advised)
+9. Enter `no` to not generate a build using new APIs and behaviour
 
 You should now have a whole bunch of new files inside your `number_guesser` 
 directory, if you created one. Some of you will have accidentally initialized 
