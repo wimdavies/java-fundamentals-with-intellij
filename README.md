@@ -39,6 +39,17 @@ Luckily, you can install version 17 using homebrew :)
 ; brew install openjdk@17
 ```
 
+If the installation is successful, you'll see some output messages. One of them
+will provide instructions on how to add your Java installation to your `PATH`, 
+so that you can use it from the command line. It will look something like this:
+
+```shell
+; echo 'export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"' >> ~/.zshrc
+```
+
+Check the exact text of your message, run the command that it gives you, and 
+then restart your terminal so that the changes take effect.
+
 Then, do this to verify that everything worked:
 
 ```shell
