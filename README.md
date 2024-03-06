@@ -1,5 +1,9 @@
 # Java Fundamentals (With IntelliJ)
 
+> **Note**  
+> As of March 2024, this module has been deprecated, and remains here as reference material for previous learners.  
+> Current learners can find the equivalent material on the Makers Platform.
+
 _Coaching this? Read the coach guidance
 [here.](https://github.com/makersacademy/slug/blob/main/materials/universe/language_intros/challenges/java_fundamentals_with_intellij/HOW_TO_COACH.x.md)_
 
