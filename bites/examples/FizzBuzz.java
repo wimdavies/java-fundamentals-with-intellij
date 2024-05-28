@@ -14,8 +14,14 @@ public class FizzBuzz {
     }
 
     public static void main(String[] args) {
-        for (int i = 0; i <= 100; i++) {
-            System.out.println(FizzBuzz.play(i));
+        // for (int i = 1; i <= 100; i++) {
+        //     System.out.println(FizzBuzz.play(i));
+        // }
+
+        int counter = 1;
+        while (counter < 101) {
+            System.out.println(FizzBuzz.play(counter));
+            counter++;
         }
     }
 }
