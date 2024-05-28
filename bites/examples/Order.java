@@ -15,10 +15,14 @@ public class Order {
         this.total -= amount;
     }
 
+    public String friendlyTotal() {
+        return String.format("Thanks! The total value of your order is £%d.", getTotal());
+    }
+
     public static void main(String[] args) {
         Order order = new Order();
         order.addAmount(10);
         order.addDiscount(5);
-        System.out.println(order.getTotal());
+        System.out.println(order.friendlyTotal());
     }
 }
